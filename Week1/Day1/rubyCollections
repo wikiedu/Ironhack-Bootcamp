@@ -1,0 +1,29 @@
+#.each exercise
+
+classmates = ["Edu", "Jason", "Jordi"]
+
+classmates.each do |student|
+	puts "good morning, #{student}"
+
+end
+
+#.map exercise
+
+cities =["miami", "madrid", "barcelona"].map do |city|
+	city.capitalize
+end
+
+pretty_cities = cities.map {|city2| city2.capitalize}
+
+puts cities
+puts pretty_cities
+
+#.reduce exercise
+
+cities =["miami", "madrid", "barcelona"]
+
+cities_total_length = cities.reduce(0){|caracteresTotales,ciudad| caracteresTotales + ciudad.length
+ }
+
+ average_length= cities_total_length/cities.length
+puts average_length

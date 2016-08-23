@@ -1,4 +1,4 @@
-
+require 'yaml/store'
 
 class Task
     attr_reader :content, :id ,:completed, :created_at, :updated_at

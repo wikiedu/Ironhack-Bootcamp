@@ -1,0 +1,24 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+	
+<header>
+	<h1>My first Sinatra</h1>
+</header>
+
+<p>
+	<b>Author:</b>
+	<%= @username %>
+</p>
+
+<% if Date.today.tuesday? %>
+	<p>
+		Edu Calderon is <strong>NOT</strong>
+		a fan of Tuesdays like today.
+	</p>
+<% end %>
+	<img src="/03.jpg" alt="Edu's profile image">
+</body>
+</html>

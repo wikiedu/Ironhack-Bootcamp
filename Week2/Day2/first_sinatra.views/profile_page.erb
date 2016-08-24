@@ -5,11 +5,11 @@
 <body>
 	
 <header>
-	<h1>My first Sinatra</h1>
+	<h1>Profile Page</h1>
 </header>
 
 <p>
-	<b>Author:</b>
+	<b>Username:</b>
 	<%= session[:myname] %>
 </p>
 
@@ -20,6 +20,11 @@
 	</p>
 <% end %>
 
-	<img src="/03.jpg" alt="Edu's profile image">
+	<img src="/<%= session[:myname] %>.jpg" alt="<%= session[:myname] %>'s profile image">
+
+		<p> <form action="/login">
+		<button  type="submit">LogOut</button>
+		</form>
+	</p>
 </body>
 </html>

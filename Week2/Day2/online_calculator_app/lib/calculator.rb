@@ -13,7 +13,7 @@ class Calculator
 	end
 
 	def mul 
-		@number1 * number2
+		@number1 * @number2
 	end
 
 	def div

@@ -1,0 +1,20 @@
+
+
+<html>
+<head>
+</head>
+<body>
+	
+<header>
+	<h1>IRONHACK BLOG</h1>
+</header>
+
+<% @posts.each_with_index do |post, index| %>
+  <p><a href="/post_details/<%= index %>"><%= post.title %></a></p>
+<% end %>
+
+<p><a href="/new_post"> CREATE NEW POST</a></p>
+
+
+</body>
+</html>

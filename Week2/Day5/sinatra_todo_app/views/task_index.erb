@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+	
+<header>
+	<h1>Welcome to the TodoList</h1>
+</header>
+
+
+<% @list.each do |task| %>
+ <p>
+ 	<%= task %>
+ </p>
+<% end %>
+
+<p><a href="/new_task"> CREATE NEW TASK</a></p>
+
+</body>
+</html>

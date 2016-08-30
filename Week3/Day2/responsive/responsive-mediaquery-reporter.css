@@ -1,0 +1,16 @@
+#header-image {
+	background-image: url('image.gif');
+	background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1200px) {
+	#header-image {
+		background-image: url('larger-image.gif');
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	body:after {
+		content: "1024 and up"
+	}
+}

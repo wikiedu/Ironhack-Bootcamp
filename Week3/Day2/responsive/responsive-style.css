@@ -1,0 +1,18 @@
+.container {
+	margin: 0 40px;
+
+}
+
+.row {
+	margin-left: -3px;
+}
+
+[class*="span"] {
+	display: inline;
+	float: left;
+	margin-left: 3%;
+}
+
+.span-one-third {
+	width: 30%;
+}

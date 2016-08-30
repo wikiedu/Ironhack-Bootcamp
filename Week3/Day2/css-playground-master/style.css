@@ -1,0 +1,23 @@
+.green{
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+#red {
+	color: red;
+}
+
+#top {
+	position: absolute;
+	top:350px;
+	left: 350px;
+}
+
+#bottom {
+	position: absolute;
+	top:400;
+	left: 500	px;
+}
